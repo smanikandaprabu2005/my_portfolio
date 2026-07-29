@@ -172,5 +172,5 @@ This project is private and proprietary.
 ## Contact
 
 For questions or issues, please contact:
-- Email: your.email@example.com
+- Email: smanikandaprabu2005@gmail.com
 - LinkedIn: linkedin.com/in/yourprofile
