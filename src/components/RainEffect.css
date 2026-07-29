@@ -1,0 +1,218 @@
+.rain-center {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.rain {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  transform: translate(-50%, 0);
+}
+
+.drop {
+  width: 3px;
+  height: fit-content;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 80px solid rgba(100, 255, 218, 0.5);
+  border-radius: 2mm;
+  position: absolute;
+  top: calc(100% - 150px);
+  left: 50%;
+  animation: fall var(--duration) ease-in var(--delay) infinite backwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-150vh);
+  }
+  45% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  46% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ripples {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.ripple {
+  display: block;
+  width: 100%;
+  height: 80px;
+  border-radius: 50%;
+  border: 1.2mm solid rgba(100, 255, 218, 0.4);
+  position: absolute;
+  animation: spread var(--duration) ease-out var(--delay) infinite backwards;
+}
+
+.ripple:nth-child(2) {
+  animation-delay: calc(var(--delay) + 0.4s);
+}
+
+@keyframes spread {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.splash {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, 0);
+  border-radius: 8px;
+  clip-path: polygon(
+    7% 100%,
+    5% 95%,
+    3% 80%,
+    11% 50%,
+    17% 38%,
+    23% 44%,
+    30% 53%,
+    37% 28%,
+    40% 29%,
+    45% 43%,
+    51% 53%,
+    59% 36%,
+    64% 22%,
+    67% 23%,
+    70% 34%,
+    72% 46%,
+    79% 37%,
+    83% 37%,
+    93% 61%,
+    96% 76%,
+    96% 94%,
+    94% 100%
+  );
+  background: rgba(100, 255, 218, 0.6);
+  transform-origin: bottom;
+  animation: watersplash var(--duration) ease-out var(--delay) infinite backwards;
+}
+
+@keyframes watersplash {
+  0% {
+    transform: translate(-50%, 0) scale(0.3, 0);
+  }
+  49% {
+    transform: translate(-50%, 0) scale(0.3, 0);
+  }
+  50% {
+    transform: translate(-50%, 0) scale(0.3, 0.3);
+  }
+  60% {
+    transform: translate(-50%, 0) scale(0.7, 1);
+  }
+  90% {
+    transform: translate(-50%, 0) scale(1, 0);
+  }
+  100% {
+    transform: translate(-50%, 0) scale(1, 0);
+  }
+}
+
+.bubbles {
+  width: 100%;
+}
+
+.bubble {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(100, 255, 218, 0.5);
+}
+
+.bubble:nth-child(1) {
+  width: 7px;
+  height: 7px;
+  bottom: 30px;
+  left: 45%;
+  animation: jumpLeft var(--duration) ease-out calc(var(--delay) + 0.2s) infinite backwards;
+}
+
+.bubble:nth-child(2) {
+  width: 5px;
+  height: 5px;
+  bottom: 100px;
+  left: 40%;
+  animation: jumpLeft var(--duration) ease-out calc(var(--delay) + 0s) infinite backwards;
+}
+
+.bubble:nth-child(3) {
+  width: 6px;
+  height: 6px;
+  bottom: 110px;
+  right: 50%;
+  animation: jumpRight var(--duration) ease-out calc(var(--delay) + 0.3s) infinite backwards;
+}
+
+.bubble:nth-child(4) {
+  width: 7px;
+  height: 7px;
+  bottom: 70px;
+  right: 35%;
+  animation: jumpRight var(--duration) ease-out calc(var(--delay) + 0.1s) infinite backwards;
+}
+
+@keyframes jumpLeft {
+  0%,
+  45% {
+    transform: translate(0, 0) scale(0);
+  }
+  60% {
+    transform: translate(-50px, -90px) scale(1);
+  }
+  100% {
+    transform: translate(-60px, 0px) scale(0.1);
+  }
+}
+
+@keyframes jumpRight {
+  0%,
+  45% {
+    transform: translate(0, 0) scale(0);
+  }
+  60% {
+    transform: translate(30px, -80px) scale(1);
+  }
+  100% {
+    transform: translate(50px, 0px) scale(0.1);
+  }
+}
+
+/* Reduce rain density on smaller screens */
+@media (max-width: 768px) {
+  .rain-center {
+    display: none; /* Disable on mobile for performance */
+  }
+}
