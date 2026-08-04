@@ -4,7 +4,7 @@ import './ResumeButton.css'
 const ResumeButton = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a')
-    link.href = '/public/Resume.pdf'
+    link.href = `${import.meta.env.BASE_URL}Resume.pdf`
     link.download = 'Manikanda_Prabu_S_Resume.pdf'
     document.body.appendChild(link)
     link.click()

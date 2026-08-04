@@ -5,17 +5,17 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming',
-      icon: '/programming-icon.png',
+      icon: `${import.meta.env.BASE_URL}programming-icon.png`,
       skills: ['C', 'Java', 'Python', 'JavaScript']
     },
     {
       title: 'Web',
-      icon: '/web-icon.png',
+      icon: `${import.meta.env.BASE_URL}web-icon.png`,
       skills: ['HTML', 'CSS', 'React.js', 'Node.js', 'Express.js']
     },
     {
       title: 'Databases',
-      icon: '/database-icon.png',
+      icon: `${import.meta.env.BASE_URL}database-icon.png`,
       skills: ['MySQL', 'Oracle', 'MongoDB']
     }
   ]

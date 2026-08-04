@@ -70,16 +70,16 @@ const Hero = () => {
               <div className="circle circle-3"></div>
               <div className="hero-image-border"></div>
               <img
-                src="/profile.jpg"
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
                 alt="Manikanda Prabu S"
                 className="hero-image"
                 onError={(e) => {
                   // Try alternative image names
                   const img = e.target;
                   if (img.src.includes('profile-photo.jpg')) {
-                    img.src = '/profile.jpg';
+                    img.src = `${import.meta.env.BASE_URL}profile.jpg`;
                   } else if (img.src.includes('profile.jpg')) {
-                    img.src = '/photo.jpg';
+                    img.src = `${import.meta.env.BASE_URL}photo.jpg`;
                   } else {
                     // Hide image and show placeholder
                     img.style.display = 'none';
