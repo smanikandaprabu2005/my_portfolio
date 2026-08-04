@@ -4,11 +4,26 @@ import './Projects.css'
 const Projects = () => {
   const projects = [
     {
+      title: 'Disaster Intelligence Platform',
+      description: 'Developed an AI-powered disaster early warning system for floods, cyclones, and landslides. Integrated real-time weather data and news alerts for dynamic risk monitoring. Applied deep learning models and geospatial data analysis to improve disaster preparedness',
+      technologies: ['Python', 'Deep Learning','tensorflow','Machine Learning', 'React.js'],
+      githubUrl: 'https://github.com/smanikandaprabu2005/flood-prediction',
+      projectUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7424847319428313088/'
+    },
+    {
+      title: 'Smart Document Generator',
+      description: 'Developed an AI-powered document generation platform that creates certificates, letters, notices, and circulars from user prompts. Implemented bulk certificate generation using Excel, QR code integration, PDF export, secure admin authentication, and deployment on render.',
+      technologies: ['Python', 'APIs', 'React.js', 'LibreOffice', 'Docker'],
+      githubUrl: 'https://github.com/smanikandaprabu2005/smart-document-generator',
+      projectUrl: '#'
+    },
+    
+    {
       title: 'Stock Price Prediction',
       description: 'Developed an AI-powered stock price prediction system using machine learning algorithms with real-time data integration. Achieved improved prediction accuracy through feature engineering and model optimization.',
       technologies: ['Python', 'Machine Learning', 'Pandas', 'NumPy', 'Data Visualization', 'APIs'],
       githubUrl: 'https://github.com/smanikandaprabu2005/Stock-Price-Prediction',
-      projectUrl: '#'
+      projectUrl: 'https://drive.google.com/file/d/1pIcnVWUkvlLbyPJtXjDuh31ImRe9_1BF/view?usp=sharing'
     },
     {
       title: 'ATM Anomaly Detection using CLIP Autoencoder',
@@ -22,14 +37,14 @@ const Projects = () => {
       description: 'Created a full-stack web application for on-demand fuel delivery with repair services integration. Delivered a complete e-commerce solution demonstrating full-stack development skills.',
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/smanikandaprabu2005/fuel-and-fix',
-      projectUrl: 'https://fuel-and-fix-frontend.onrender.com/'
+      projectUrl: 'https://drive.google.com/file/d/1-Cv_4dbKN3qxgebTiPnnwxiy2cz4TDOa/view?usp=sharing'
     },
     {
-      title: 'Flight Management System',
-      description: 'Developed a desktop application for comprehensive flight management including booking, scheduling, and customer management. Built a functional desktop application showcasing GUI development skills.',
-      technologies: ['Python', 'Tkinter', 'SQLite', 'Object-Oriented Programming'],
-      githubUrl: '#',
-      projectUrl: '#'
+      title: 'Game Box',
+      description: 'Built a lightweight, centralized web-based gaming playground featuring classic arcade and board games like Ludo, Ping Pong, and Memory Card.',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/smanikandaprabu2005/game_box',
+      projectUrl: 'https://drive.google.com/file/d/1Z4sgHk780QNRSkhilebvpAr7ZCooMcOS/view?usp=sharing'
     }
   ]
 
