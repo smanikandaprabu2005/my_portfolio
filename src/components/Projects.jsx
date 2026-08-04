@@ -17,7 +17,13 @@ const Projects = () => {
       githubUrl: 'https://github.com/smanikandaprabu2005/smart-document-generator',
       projectUrl: '#'
     },
-    
+    {
+      title: 'Fuel & Fix – Online Fuel Delivery Platform',
+      description: 'Created a full-stack web application for on-demand fuel delivery with repair services integration. Delivered a complete e-commerce solution demonstrating full-stack development skills.',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/smanikandaprabu2005/fuel-and-fix',
+      projectUrl: 'https://drive.google.com/file/d/1-Cv_4dbKN3qxgebTiPnnwxiy2cz4TDOa/view?usp=sharing'
+    },
     {
       title: 'Stock Price Prediction',
       description: 'Developed an AI-powered stock price prediction system using machine learning algorithms with real-time data integration. Achieved improved prediction accuracy through feature engineering and model optimization.',
@@ -32,13 +38,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/smanikandaprabu2005/atm-anomaly-detection',
       projectUrl: '#'
     },
-    {
-      title: 'Fuel & Fix – Online Fuel Delivery Platform',
-      description: 'Created a full-stack web application for on-demand fuel delivery with repair services integration. Delivered a complete e-commerce solution demonstrating full-stack development skills.',
-      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'JavaScript'],
-      githubUrl: 'https://github.com/smanikandaprabu2005/fuel-and-fix',
-      projectUrl: 'https://drive.google.com/file/d/1-Cv_4dbKN3qxgebTiPnnwxiy2cz4TDOa/view?usp=sharing'
-    },
+
     {
       title: 'Game Box',
       description: 'Built a lightweight, centralized web-based gaming playground featuring classic arcade and board games like Ludo, Ping Pong, and Memory Card.',
