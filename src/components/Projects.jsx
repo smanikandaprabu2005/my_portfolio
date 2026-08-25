@@ -15,7 +15,7 @@ const Projects = () => {
       description: 'Developed an AI-powered document generation platform that creates certificates, letters, notices, and circulars from user prompts. Implemented bulk certificate generation using Excel, QR code integration, PDF export, secure admin authentication, and deployment on render.',
       technologies: ['Python', 'APIs', 'React.js', 'LibreOffice', 'Docker'],
       githubUrl: 'https://github.com/smanikandaprabu2005/smart-document-generator',
-      projectUrl: '#'
+      projectUrl: 'https://drive.google.com/file/d/1pT6lE9Rv2UhFbRpVqWft0p_qAtPXP0te/view?usp=sharing'
     },
     {
       title: 'Fuel & Fix – Online Fuel Delivery Platform',
