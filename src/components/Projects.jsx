@@ -44,7 +44,7 @@ const Projects = () => {
       description: 'Built a lightweight, centralized web-based gaming playground featuring classic arcade and board games like Ludo, Ping Pong, and Memory Card.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/smanikandaprabu2005/game_box',
-      projectUrl: 'https://drive.google.com/file/d/1Z4sgHk780QNRSkhilebvpAr7ZCooMcOS/view?usp=sharing'
+      projectUrl: 'https://smanikandaprabu2005.github.io/game_box/'
     }
   ]
 
