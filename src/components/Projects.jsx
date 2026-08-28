@@ -36,7 +36,7 @@ const Projects = () => {
       description: 'Built an anomaly detection system using CLIP (Contrastive Language-Image Pre-training) Autoencoder to identify unusual patterns in ATM transaction data. Successfully implemented deep learning solution for fraud detection.',
       technologies: ['Deep Learning', 'Python', 'TensorFlow/Keras', 'CLIP Model', 'Autoencoder'],
       githubUrl: 'https://github.com/smanikandaprabu2005/atm-anomaly-detection',
-      projectUrl: '#'
+      projectUrl: 'https://drive.google.com/file/d/13K0mYoBkEoOkMGQH1RIDGiA6H9VksPvJ/view?usp=sharing'
     },
 
     {
