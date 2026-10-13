@@ -11,13 +11,11 @@ const Projects = () => {
       projectUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7424847319428313088/'
     },
     {
-    title: 'SageStorm AI – Custom Small Language Model for Agriculture',
-    description:'Built a domain-specific agricultural AI assistant powered by a custom Transformer-based Small Language Model (SLM) developed from scratch using PyTorch. Integrated hybrid Retrieval-Augmented Generation (RAG) using FAISS, Sentence-Transformers, BM25, and TF-IDF for knowledge retrieval. Implemented instruction fine-tuning, farmer profile memory, weather-aware context, confidence-based response routing, and safe fallback mechanisms.',
+    title: 'SageStorm AI – Custom SLM for Agriculture',
+    description:'Built a domain-specific agricultural AI assistant powered by a custom Transformer-based SLM developed from scratch using PyTorch. Integrated hybrid RAG using FAISS, Sentence-Transformer, BM25, and TF-IDF for knowledge retrieval.',
     technologies: [
       'Python',
       'PyTorch',
-      'Transformer Architecture',
-      'Small Language Models',
       'RAG',
       'FAISS',
       'BM25',
