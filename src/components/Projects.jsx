@@ -53,14 +53,6 @@ const Projects = () => {
       technologies: ['Python', 'Machine Learning', 'Pandas', 'NumPy', 'Data Visualization', 'APIs'],
       githubUrl: 'https://github.com/smanikandaprabu2005/Stock-Price-Prediction',
       projectUrl: 'https://drive.google.com/file/d/1pIcnVWUkvlLbyPJtXjDuh31ImRe9_1BF/view?usp=sharing'
-    },
-
-    {
-      title: 'Game Box',
-      description: 'Built a lightweight, centralized web-based gaming playground featuring classic arcade and board games like Ludo, Ping Pong, and Memory Card.',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
-      githubUrl: 'https://github.com/smanikandaprabu2005/game_box',
-      projectUrl: 'https://smanikandaprabu2005.github.io/game_box/'
     }
   ]
 
