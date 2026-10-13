@@ -11,11 +11,29 @@ const Projects = () => {
       projectUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7424847319428313088/'
     },
     {
-      title: 'Smart Document Generator',
-      description: 'Developed an AI-powered document generation platform that creates certificates, letters, notices, and circulars from user prompts. Implemented bulk certificate generation using Excel, QR code integration, PDF export, secure admin authentication, and deployment on render.',
-      technologies: ['Python', 'APIs', 'React.js', 'LibreOffice', 'Docker'],
-      githubUrl: 'https://github.com/smanikandaprabu2005/smart-document-generator',
-      projectUrl: 'https://drive.google.com/file/d/1pT6lE9Rv2UhFbRpVqWft0p_qAtPXP0te/view?usp=sharing'
+    title: 'SageStorm AI – Custom Small Language Model for Agriculture',
+    description:'Built a domain-specific agricultural AI assistant powered by a custom Transformer-based Small Language Model (SLM) developed from scratch using PyTorch. Integrated hybrid Retrieval-Augmented Generation (RAG) using FAISS, Sentence-Transformers, BM25, and TF-IDF for knowledge retrieval. Implemented instruction fine-tuning, farmer profile memory, weather-aware context, confidence-based response routing, and safe fallback mechanisms.',
+    technologies: [
+      'Python',
+      'PyTorch',
+      'Transformer Architecture',
+      'Small Language Models',
+      'RAG',
+      'FAISS',
+      'BM25',
+      'SentencePiece',
+      'FastAPI',
+      'React.js'
+     ],
+     githubUrl: 'https://github.com/smanikandaprabu2005/sage-Ai',
+     projectUrl: 'https://drive.google.com/file/d/1FdKNiqNaQX-UQCzPve5sUR0VhxYdW6i9/view?usp=sharing'
+    },
+    {
+      title: 'ATM Anomaly Detection using CLIP Autoencoder',
+      description: 'Built an anomaly detection system using CLIP (Contrastive Language-Image Pre-training) Autoencoder to identify unusual patterns in ATM transaction data. Successfully implemented deep learning solution for fraud detection.',
+      technologies: ['Deep Learning', 'Python', 'TensorFlow/Keras', 'CLIP Model', 'Autoencoder'],
+      githubUrl: 'https://github.com/smanikandaprabu2005/atm-anomaly-detection',
+      projectUrl: 'https://drive.google.com/file/d/13K0mYoBkEoOkMGQH1RIDGiA6H9VksPvJ/view?usp=sharing'
     },
     {
       title: 'Fuel & Fix – Online Fuel Delivery Platform',
@@ -24,19 +42,19 @@ const Projects = () => {
       githubUrl: 'https://github.com/smanikandaprabu2005/fuel-and-fix',
       projectUrl: 'https://drive.google.com/file/d/1-Cv_4dbKN3qxgebTiPnnwxiy2cz4TDOa/view?usp=sharing'
     },
+        {
+      title: 'Smart Document Generator',
+      description: 'Developed an AI-powered document generation platform that creates certificates, letters, notices, and circulars from user prompts. Implemented bulk certificate generation using Excel, QR code integration, PDF export, secure admin authentication, and deployment on render.',
+      technologies: ['Python', 'APIs', 'React.js', 'LibreOffice', 'Docker'],
+      githubUrl: 'https://github.com/smanikandaprabu2005/smart-document-generator',
+      projectUrl: 'https://drive.google.com/file/d/1pT6lE9Rv2UhFbRpVqWft0p_qAtPXP0te/view?usp=sharing'
+    },
     {
       title: 'Stock Price Prediction',
       description: 'Developed an AI-powered stock price prediction system using machine learning algorithms with real-time data integration. Achieved improved prediction accuracy through feature engineering and model optimization.',
       technologies: ['Python', 'Machine Learning', 'Pandas', 'NumPy', 'Data Visualization', 'APIs'],
       githubUrl: 'https://github.com/smanikandaprabu2005/Stock-Price-Prediction',
       projectUrl: 'https://drive.google.com/file/d/1pIcnVWUkvlLbyPJtXjDuh31ImRe9_1BF/view?usp=sharing'
-    },
-    {
-      title: 'ATM Anomaly Detection using CLIP Autoencoder',
-      description: 'Built an anomaly detection system using CLIP (Contrastive Language-Image Pre-training) Autoencoder to identify unusual patterns in ATM transaction data. Successfully implemented deep learning solution for fraud detection.',
-      technologies: ['Deep Learning', 'Python', 'TensorFlow/Keras', 'CLIP Model', 'Autoencoder'],
-      githubUrl: 'https://github.com/smanikandaprabu2005/atm-anomaly-detection',
-      projectUrl: 'https://drive.google.com/file/d/13K0mYoBkEoOkMGQH1RIDGiA6H9VksPvJ/view?usp=sharing'
     },
 
     {
